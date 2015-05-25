@@ -19,7 +19,6 @@ class HhSpider(CrawlSpider):
    rules = (
             Rule(SgmlLinkExtractor(allow=('\/catalog\/1137926\/\?page\=\d+$')),follow='True'),
             Rule(SgmlLinkExtractor(allow=('\/context\/detail\/id\/\d+\/$')),callback='parser'),
-            # Rule(SgmlLinkExtractor(allow=('\/vacancy\/\d+$'),deny = ('\/area_switcher\?backUrl\=\/vacancy\/\d+')),callback='parser'),
             )
 
    def parse_me(self, hxs, st):    
@@ -48,12 +47,3 @@ class HhSpider(CrawlSpider):
          writer   = csv.writer(open('books.csv', 'a'), lineterminator='\n')
          writer.writerow([str(self.order_id), title, idx, publisher,price.strip()])
          self.order_id += 1
-      # vacancy  = hxs.xpath("//div[@class='b-vacancy-custom g-round']/h1[@class='title b-vacancy-title']/text()").extract()
-      # company  = hxs.xpath("//div[@class='companyname']/a/text()").extract()
-      # price    = hxs.xpath("//div[@class='l-paddings']/text()").extract()[3]
-      # city     = hxs.xpath("//div[@class='l-paddings']/text()").extract()[4]
-      # exp      = hxs.xpath("//div[@class='l-paddings']/text()").extract()[5]
-      # vacancy1 = vacancy[0].encode('utf-8')
-      # company1 = company[0].encode('utf-8')
-      # writer   = csv.writer(open('price.csv', 'a'), lineterminator='\n')
-      # writer.writerow([vacancy1,company1, price.encode('utf-8'),city.encode('utf-8'),exp.encode('utf-8')])
