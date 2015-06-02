@@ -8,6 +8,7 @@
 
 import csv
 
+
 class MtsPipeline(object):
 
     def __init__(self):
@@ -15,5 +16,5 @@ class MtsPipeline(object):
         self.myCSV.writerow(['title'])
 
     def process_item(self, item, spider):
-		self.myCSV.writerow([item['title']])
-		return item
+        self.myCSV.writerow([item['title']])
+        return item

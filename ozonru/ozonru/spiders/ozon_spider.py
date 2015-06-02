@@ -21,10 +21,6 @@ class HhSpider(CrawlSpider):
             Rule(SgmlLinkExtractor(allow=('\/context\/detail\/id\/\d+\/$')),callback='parser'),
             )
 
-   def parse_me(self, hxs, st):    
-      return [i.strip() for i in hxs.xpath(st).extract()]
-
-
 
    def parser(self,response):
       hxs = HtmlXPathSelector(response)
@@ -45,5 +41,5 @@ class HhSpider(CrawlSpider):
             publisher = 'null'
          price = price[0].encode('utf-8')
          writer   = csv.writer(open('books.csv', 'a'), lineterminator='\n')
-         writer.writerow([str(self.order_id), title, idx, publisher,price.strip()])
+         writer.writerow([str(self.order_id), title, idx, publisher, price.strip()])
          self.order_id += 1
