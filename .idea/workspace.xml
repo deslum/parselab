@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3799a036-5c5d-4684-8665-a4ea16de10e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booksru/booksru/spiders/books_spider.py" afterPath="$PROJECT_DIR$/booksru/booksru/spiders/books_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hh.ru/hh/spiders/hh_spider.py" afterPath="$PROJECT_DIR$/hh.ru/hh/spiders/hh_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letu.ru/letu/spiders/letu_spider.py" afterPath="$PROJECT_DIR$/letu.ru/letu/spiders/letu_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop.mts.ru/myproject/spiders/mts_spider.py" afterPath="$PROJECT_DIR$/shop.mts.ru/myproject/spiders/mts_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ozonru/ozonru/spiders/ozon_spider.py" afterPath="$PROJECT_DIR$/ozonru/ozonru/spiders/ozon_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop.mts.ru/myproject/pipelines.py" afterPath="$PROJECT_DIR$/shop.mts.ru/myproject/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParseLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mts_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop.mts.ru/myproject/spiders/mts_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ozonru/ozonru/settings.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,11 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.21875" vertical-offset="0" max-vertical-offset="1650">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -145,6 +141,7 @@
         <option value="$PROJECT_DIR$/letu.ru/letu/spiders/letu_spider.py" />
         <option value="$PROJECT_DIR$/hh.ru/hh/spiders/hh_spider.py" />
         <option value="$PROJECT_DIR$/booksru/booksru/spiders/books_spider.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -478,6 +475,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.21875" vertical-offset="0" max-vertical-offset="1650">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding />
         </state>
       </provider>
